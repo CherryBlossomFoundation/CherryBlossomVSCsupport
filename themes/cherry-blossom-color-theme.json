@@ -1,0 +1,116 @@
+{
+    "name": "Cherry Blossom Theme",
+    "type": "dark",
+    "tokenColors": [
+      {
+        "scope": "keyword.sub.cherryblossom",
+        "settings": {
+          "foreground": "#CF8E6D",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "string.quoted.double.cherryblossom",
+        "settings": {
+          "foreground": "#6AAB73"
+        }
+      },
+      {
+        "scope": "constant.character.escape.cherryblossom",
+        "settings": {
+          "foreground": "#ffc64c"
+        }
+      },
+      {
+        "scope": "punctuation.definition.string.begin.cherryblossom, punctuation.definition.string.end.cherryblossom",
+        "settings": {
+          "foreground": "#6AAB73",
+          "fontStyle": "bold"
+        }
+      },
+      
+      {
+        "scope": "keyword.begin.cherryblossom",
+        "settings": {
+          "foreground": "#B3AE60",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "storage.type.rettype.cherryblossom",
+        "settings": {
+          "foreground": "#8888C6",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "keyword.control.cherryblossom",
+        "settings": {
+          "foreground": "#CF8E6D",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "keyword.declaration.cherryblossom",
+        "settings": {
+          "foreground": "#CF8E6D",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "entity.name.macro.cherryblossom",
+        "settings": {
+          "foreground": "#C77DBB",
+          "fontStyle": "bold italic"
+        }
+      },
+      {
+        "scope": "comment.line.double-slash.cherryblossom",
+        "settings": {
+          "foreground": "#616161",
+        }
+      },
+      {
+        "scope": "constant.numeric",
+        "settings": {
+          "foreground": "#2AACB8",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "foreground": "#56A8F5",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "keyword.ugly",
+        "settings": {
+          "foreground": "#FF6E6E",
+          "fontStyle": "bold underline"
+        }
+      },
+      {
+        "scope": "meta.block.ugly",
+        "settings": {
+          "foreground": "#FF79C6",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "source.cpp",
+        "settings": {
+          "foreground": "#F8F8F2"
+        }
+      },
+      {
+        "scope": "source.cpp comment",
+        "settings": {
+          "foreground": "#6272A4",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "iconDefinitions": {
+      "cherryblossom": {
+        "iconPath": "./images/cherryblossom-icon.svg"
+      }
+    },
+    "fileExtensions": {
+      "cb": "cherryblossom"
+    }
+  }
+  

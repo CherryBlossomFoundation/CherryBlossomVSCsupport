@@ -1,0 +1,40 @@
+{
+  "name": "cherry-blossom-support",
+  "displayName": "Cherry Blossom Support",
+  "description": "Cherry Blossom Language Support for VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "cherryblossom",
+        "aliases": ["Cherry Blossom", "cherryblossom"],
+        "extensions": [".cb"],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./images/cherryblossom-icon.svg",
+          "dark": "./images/cherryblossom-icon.svg"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "cherryblossom",
+        "scopeName": "source.cherryblossom",
+        "path": "./syntaxes/cherryblossom.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Cherry Blossom Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cherry-blossom-color-theme.json"
+      }
+    ]
+  }
+}
