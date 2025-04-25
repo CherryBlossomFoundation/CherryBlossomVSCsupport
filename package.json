@@ -3,6 +3,11 @@
   "displayName": "Cherry Blossom Support",
   "description": "Cherry Blossom Language Support for VS Code",
   "version": "0.0.1",
+
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/CherryBlossomFoundation/CherryBlossomVSCsupport.git"
+  },
   "engines": {
     "vscode": "^1.99.0"
   },
